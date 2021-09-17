@@ -1,0 +1,102 @@
+header {
+  padding: 10px;
+}
+
+header #title #title_content {
+  padding: 8px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+#banner {
+  height: 300px;
+  background: url(img/banner.png);
+  background-position: -210px bottom;
+  background-size: cover;
+}
+
+#banner #banner_label {
+  width: 120px;
+  height: 50px;
+
+  top: 20%;
+  line-height: 22px;
+}
+
+nav {
+  top: 65px;
+  height: 50px;
+}
+
+#nav_list li {
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+
+#images_section img {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 75%;
+  margin-left: 45px;
+  margin-bottom: 40px;
+}
+
+#images_section img:hover {
+  top: -10px;
+}
+
+#join_section {
+  background-color: #d3d3d359;
+}
+
+#join_label {
+  padding: 30px 0px 10px 0px;
+
+  font-size: 24px;
+}
+
+footer p {
+  padding: 20px 0px 20px 0px;
+
+  font-size: 12px;
+}
+
+#email_field {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+}
+
+#email_field input {
+  height: 30px;
+
+  border-radius: 60px;
+  text-indent: 8px;
+}
+
+#email_field input::-webkit-input-placeholder {
+  text-indent: 8px;
+}
+
+#email_field input:-ms-input-placeholder {
+  text-indent: 8px;
+}
+
+#email_field input::-ms-input-placeholder {
+  text-indent: 8px;
+}
+
+#email_field input::placeholder {
+  text-indent: 8px;
+}
+
+#email_field input:valid {
+  border: 2px solid green;
+}
+
+#email_field input:focus {
+  border: 2px dotted black;
+}
+/*# sourceMappingURL=style.css.map */

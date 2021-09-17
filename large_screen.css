@@ -1,0 +1,137 @@
+header {
+  padding: 20px;
+}
+
+header #title #title_content {
+  width: 200px;
+  font-size: 30px;
+  border: 10px solid white;
+  border-radius: 40px;
+}
+
+#banner {
+  height: 700px;
+  background: url(img/banner.png) no-repeat;
+  background-position: center -8px;
+  background-size: cover;
+}
+
+#banner #banner_label {
+  width: 450px;
+  height: 200px;
+  top: 35%;
+  left: 0px;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+nav {
+  top: 96px;
+  height: 60px;
+}
+
+#nav_list {
+  text-align: center;
+}
+
+#nav_list li {
+  font-size: 16px;
+
+  margin-left: 200px;
+  margin-top: 25px;
+}
+
+#text_section {
+  margin: 50px 200px 20px 200px;
+}
+
+#section_title {
+  font-size: 40px;
+  padding-left: 40px;
+}
+
+.dumy_text {
+  padding: 10px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#images_section {
+  height: 400px;
+  margin: 50px 0px 50px 0px;
+}
+
+#images_section div {
+  position: absolute;
+  width: 25%;
+  margin-top: 80px;
+}
+
+#images_section div:hover {
+  margin-top: 76px;
+}
+
+#images_section img {
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+}
+
+#images_section #first_img {
+  left: 300px;
+}
+
+#images_section #second_img {
+  right: 400px;
+}
+
+#join_section {
+  background-color: #d3d3d359;
+}
+
+#join_label {
+  font-size: 34px;
+}
+
+footer p {
+  padding: 30px 0px 30px 0px;
+
+  font-size: 18px;
+}
+
+#second_text_block {
+  text-align: center;
+}
+
+#email_field input {
+  height: 40px;
+  width: 250px;
+
+  text-indent: 8px;
+}
+
+#email_field input::-webkit-input-placeholder {
+  text-indent: 8px;
+}
+
+#email_field input:-ms-input-placeholder {
+  text-indent: 8px;
+}
+
+#email_field input::-ms-input-placeholder {
+  text-indent: 8px;
+}
+
+#email_field input::placeholder {
+  text-indent: 8px;
+}
+
+#email_field input:valid {
+  border: 2px solid green;
+}
+
+#email_field input:focus {
+  border: 2px dotted black;
+}
+/*# sourceMappingURL=style2.css.map */
